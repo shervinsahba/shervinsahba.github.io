@@ -1,0 +1,16 @@
+title: Shervin's Super Slick Site
+author: Shervin Sahba
+description: Shervin Sahba's personal website.
+email: shervinsahba@gmail.com
+
+highlighter: null
+permalink: /:title
+
+github username: shrevinsahba
+url: https://shervinsahba.github.io
+baseurl:
+
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+color_scheme: ruby
+# Jekyll Theme: Brume by Aigars Dzerviniks
