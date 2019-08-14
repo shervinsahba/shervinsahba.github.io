@@ -14,7 +14,7 @@ More detailed background is available on my resume and on <a href="https://www.l
 
 ### Subjects
 
-I specialize in applied math and physics, as well as instructing comprehensive test prep. Below is a list of topics where I have experience. Reach out if there's something not on the list, so I can make a recommendation. Thanks!
+I specialize in applied math and physics, as well as instructing comprehensive test prep. Below is a list of topics where I have teaching experience. Reach out if there's something not on the list, so I can make a recommendation. Thanks!
 
 **Test Prep**: ACT, SAT, *SAT Subject Tests* (Mathematics 2, Chemistry, Physics), *AP Exams* (Psychology, Calculus AB, Calculus BC, Statistics, Physics 1, Physics 2, Physics C), GRE, *GRE Subject Test* (Physics)
 
@@ -22,7 +22,7 @@ I specialize in applied math and physics, as well as instructing comprehensive t
 
 **Physics**: Introductory Physics, Classical Mechanics, Electromagnetism, Statistical Mechanics, Thermodynamics, Quantum Mechanics
 
-**Computational**: UNIX Shell (Bash), Git, Python (NumPy, SciPy, Keras, Tensorflow, Matplotlib), MATLAB, Mathematica
+**Computational**: UNIX Shell (Bash), Git, Python, MATLAB, Mathematica
 
 
 ### My Test Prep Scores
