@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-Research stuff!
+(This page is a work in progress).
 
 <section class="archive">
 {% for post in site.posts %}
