@@ -1,19 +1,13 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Research
 ---
 
-<div class="fadeInUp animated">
-  <h1>Shervin Sahba</h1>
-
-  Hey. This is my website. I post stuff here. Welcome.
-  
-  <br>
-  <br>
-</div>
+Research stuff!
 
 <section class="archive">
 {% for post in site.posts %}
+{% if post.categories contains 'posts_research' %}
 {% unless post.next %}
 
   {% unless forloop.first %}
@@ -55,6 +49,6 @@ title: Home
     </div>
   </div>
   {% endif %}
-
+{% endif %}
 {% endfor %}
-</section>
+<!-- </section> -->

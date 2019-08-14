@@ -4,14 +4,14 @@
     <!-- meta information -->
 <meta charset="utf-8">
 <meta name="description" 
-      content="Shervin Sahba's personal website." >
+      content="Research stuff!{% for post in site.posts %}{% if post.categories contains 'posts_research' %}{% unless post.next %}  ..." >
 <meta name="author" content="Shervin Sahba">
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>Home &middot; Shervin Sahba's Website.</title>
+<title>Research &middot; Shervin Sahba's Website.</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
@@ -34,7 +34,7 @@
   <body>
     <main class="container ruby">
       
-      <header class="fadeInLeft animated">
+      <header>
       
         <div>
           <a href="http://localhost:4000" id="logo" title="Shervin Sahba's Website."
@@ -44,7 +44,7 @@
         <nav id="main-navigation">
   
   
-  <a href="/" title="Home" class="current">Home</a>
+  <a href="/" title="Home">Home</a>
   
   
   
@@ -56,23 +56,20 @@
   
   
   
-  <a href="/research" title="Research">Research</a>
+  <a href="/research" title="Research" class="current">Research</a>
   
   
 </nav>
 
       </header>
 
-      <div class="fadeInUp animated">
-  <h1>Shervin Sahba</h1>
+      <article class="single row gutters">
+  <h2>Research</h2>
 
-  Hey. This is my website. I post stuff here. Welcome.
-  
-  <br>
-  <br>
-</div>
+  <p>Research stuff!</p>
 
 <section class="archive">
+
 
 
 
@@ -98,64 +95,10 @@
 
 
 
+<!-- </section> -->
+</div></div></section>
 
-
-
-  
-    </div>
-  </div>
-  
-
-  <div class="archive-item fadeInDown animated">
-    <h2>2017</h2>
-    <div>
-
-
-
-
-  <article>
-    <a href="http://localhost:4000/video-example" title="Video example">Video example</a>
-    <div class="post-date">
-      <time datetime="2017-04-23">23 April</time>
-    </div>
-  </article>
-
-  
-
-
-
-
-
-
-
-
-
-  
-    </div>
-  </div>
-  
-
-  <div class="archive-item fadeInDown animated">
-    <h2>2014</h2>
-    <div>
-
-
-
-
-  <article>
-    <a href="http://localhost:4000/demo-post" title="Demo post">Demo post</a>
-    <div class="post-date">
-      <time datetime="2014-03-07">7 March</time>
-    </div>
-  </article>
-
-  
-    </div>
-  </div>
-  
-
-
-</section>
+</article>
 
 
       <footer>
