@@ -3,11 +3,16 @@ layout: page
 title: About
 ---
 
+*Jump to*: [About Me](#about-me) 
+\| [About This Page](#about-this-page) 
+
 Yo! This will be my new page. It will be filled with things I want to tell you about :)
 
 ### About me
 
-I'm a Physics PhD Student at the University of Washington. My research interests center on machine learning, photonic systems, and applied mathematics. Prior to academia, I worked as a private tutor and test prep instructor, event and logistics manager, marketing data analyst, and psychology research assistant.
+I'm a Physics PhD Student at the University of Washington. My research interests center on machine learning, photonics, and applied mathematics. 
+
+Prior to academia, I worked as a private tutor and test prep instructor, event and logistics manager, marketing data analyst, and psychology research assistant.
 
 I'm a fan of guitar, writing, chess, rock climbing, hiking, lifting, travel, spontaneous forays into art, and game design.
 
