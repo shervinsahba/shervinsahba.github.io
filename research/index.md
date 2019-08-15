@@ -5,7 +5,7 @@ title: Research
 
 (This page is a work in progress).
 
-<section class="archive">
+<!-- <section class="archive">
 {% for post in site.posts %}
 {% if post.categories contains 'posts_research' %}
 {% unless post.next %}
@@ -51,4 +51,4 @@ title: Research
   {% endif %}
 {% endif %}
 {% endfor %}
-<!-- </section> -->
+</section> -->

@@ -5,15 +5,20 @@
   </head>
   <body>
     <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+
       {% if page.title == "Home" %}
       <header class="fadeInLeft animated">
+        <div>
+          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
+             style="background-image: url({{ '/assets/images/me_circle.png' | relative_url }});"></a>
+        </div>
       {% else %}
       <header>
-      {% endif %}
         <div>
           <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
              style="background-image: url({{ '/assets/images/me_circle_halftone.png' | relative_url }});"></a>
         </div>
+      {% endif %}
 
         {% include navigation.html %}
       </header>

@@ -11,6 +11,6 @@ url: https://shervinsahba.github.io
 baseurl:
 
 # Custom options:
-# color_scheme: azul|ruby|amber|avocado
-color_scheme: ruby
+# color_scheme: azul|ruby|amber|avocado|seafoam
+color_scheme: seafoam
 # Jekyll Theme: Brume by Aigars Dzerviniks
