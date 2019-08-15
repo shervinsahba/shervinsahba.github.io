@@ -5,6 +5,14 @@ title: Research
 
 (This page is a work in progress).
 
+### Machine Learning
+
+### Frequency Comb Generation
+
+### Soliton Dynamics
+
+### Photonic Crystals & Disordered Media
+
 <!-- <section class="archive">
 {% for post in site.posts %}
 {% if post.categories contains 'posts_research' %}
