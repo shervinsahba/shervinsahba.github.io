@@ -13,4 +13,6 @@ baseurl:
 # Custom options:
 # color_scheme: azul|ruby|amber|avocado|seafoam
 color_scheme: seafoam
-# Jekyll Theme: Brume by Aigars Dzerviniks
+
+kramdown:
+  auto_ids: true   # enables header links: Header Name with [link](#header-name)
