@@ -3,6 +3,11 @@ layout: page
 title: Research
 ---
 
+*Jump to*: [Machine Learning](#machine-learning) 
+\| [Frequency Combs](#frequency-comb-generation) 
+\| [Solitons](#soliton-dynamics) 
+\| [Photonic Media](#photonic-crystals-and-disordered-media) 
+
 (This page is a work in progress).
 
 ### Machine Learning
@@ -11,7 +16,7 @@ title: Research
 
 ### Soliton Dynamics
 
-### Photonic Crystals & Disordered Media
+### Photonic Crystals and Disordered Media
 
 <!-- <section class="archive">
 {% for post in site.posts %}

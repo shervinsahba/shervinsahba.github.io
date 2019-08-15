@@ -3,9 +3,11 @@ layout: page
 title: Tutoring
 ---
 
-I love to learn and love to teach! Below I've detailed my experience and subjects. At this time I am only taking students local to Seattle. Please be in touch with any inquiries. Thank you!
+*Jump to*: [Experience](#experience) 
+\| [Subjects](#subjects) 
+\| [My Test Prep Scores](#my-test-prep-scores)
 
-*Jump to*: [Experience](#experience) \| [Subjects](#subjects) \| [My Test Prep Scores](#my-test-prep-scores)
+I love to learn and love to teach! Below I've detailed my experience and subjects. At this time I am only taking students local to Seattle. Please be in touch with any inquiries. Thank you!
 
 ### Experience
 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" 
+      content="  My email address is on clear display: ude.wu@abhass . Is this madness? Will I succumb to spam crawlers?? Should I h..." >
+<meta name="author" content="Shervin Sahba">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>Email [at] obfuscation [dot] whatever? &middot; Shervin Sahba's Website.</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/assets/css/prism.css">
+<link rel="stylesheet" href="/assets/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/syntax.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+
+
+<!-- feed links -->
+<link rel="alternate" href="http://localhost:4000/feed.xml" type="application/rss+xml" title="Shervin Sahba's Website.">
+
+  </head>
+  <body>
+    <main class="container seafoam">
+
+      
+      <header>
+        <div>
+          <a href="http://localhost:4000" id="logo" title="Shervin Sahba's Website."
+             style="background-image: url(/assets/images/me_circle_halftone.png);"></a>
+        </div>
+      
+
+        <nav id="main-navigation">
+  
+  
+  <a href="/research" title="Research">Research</a>
+  
+  
+  
+  <a href="/tutoring" title="Tutoring">Tutoring</a>
+  
+  
+  
+  <a href="/about" title="About">About</a>
+  
+  
+</nav>
+
+      </header>
+
+      <article class="single row gutters">
+  <time class="published" datetime="2018-06-17">17 June 2018</time>
+  <h2>Email [at] obfuscation [dot] whatever?</h2>
+
+  <blockquote>
+  <p>My email address is on clear display: <span style="display: inline-block; unicode-bidi: bidi-override; direction: rtl;" onmouseover="this.innerText=this.innerText.split('').reverse().join(''); this.style.unicodeBidi=''; this.removeAttribute('onmouseover');">ude.wu@abhass
+</span> 
+. Is this madness? Will I succumb to spam crawlers?? Should I have opted for the traditional “foo [at] bar [dot] com” approach?! Well, here’s the thing. What you’re seeing is some sleight-of-hand.</p>
+</blockquote>
+
+<p>Here’s the actual code:</p>
+
+<pre><code class="language-html">
+&lt;span style="display: inline-block; unicode-bidi: bidi-override; direction: rtl;"
+onmouseover="this.innerText=this.innerText.split('').reverse().join('');
+ this.style.unicodeBidi=''; this.removeAttribute('onmouseover');"&gt;
+ude.wu@abhass
+&lt;/span&gt;
+</code></pre>
+
+<p>The style property is set to reverse text direction, so the server and most bots see “ude.wu@abhass”. Bots typically seek the “@” symbol and then a dot afterwards, so I’m not at much risk here. A spammer could program their crawler to run forwards <em>and backwards</em> to sniff out my email address, but that would mine too many false positives. In any case, <a href="https://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work">this security measure appears effective</a>, as the linked Superuser.SE post discusses.</p>
+
+<p>The mouseover property requires a javascript enabled browser. This code lets you copy the reversed text and magically paste it in the forward direction. Credit is due to user <a href="https://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work#comment786336_235965">abenier’s comment</a>. Without the mouseover code, you’ll copy the reversed string. For example, see what happens when you copy and paste the following text that doesn’t use the javascript mouseover code:
+<span style="display: inline-block; unicode-bidi: bidi-override; direction: rtl;">
+I HAVE DECODED THE ULTRA SECRET MESSAGE!
+</span></p>
+
+</article>
+
+
+      <footer>
+        <p>
+          Content of this page is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. 
+        </p>
+      </footer>
+    </main>
+
+    <!-- scripts -->
+    <script src="/assets/js/prism.js"></script>
+    <script src="/assets/js/fluidvids.min.js"></script>
+    <script>
+      fluidvids.init({
+        selector: ['iframe', 'object'],
+        players: ['www.youtube.com', 'player.vimeo.com']
+      });
+    </script>
+  </body>
+</html>

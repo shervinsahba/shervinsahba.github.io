@@ -6,8 +6,8 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 15 Aug 2019 00:54:06 -0700</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2019 00:54:06 -0700</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2019 13:08:07 -0700</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2019 13:08:07 -0700</lastBuildDate>
 
     
       <item>
@@ -15,7 +15,9 @@
         <link>http://localhost:4000/taught-my-first-software-carpentry</link>
         <pubDate>Sun, 21 Jul 2019 00:00:00 -0700</pubDate>
         <author></author>
-        <description>&lt;p&gt;&lt;strong&gt;The Carpentries is a volunteer-run organization that teaches foundational coding and data science skills to researchers worldwide.&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;The Carpentries is a volunteer-run organization that teaches foundational coding and data science skills to researchers worldwide.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Earlier this month, I instructed my first &lt;a href=&quot;https://uwescience.github.io/2019-07-15-uw/&quot;&gt;Software Carpentry workshop&lt;/a&gt;! This was both the first time I’ve live-coded and the first time I taught a room full of individuals who were further along in their careers than myself. The crowd was a mix of well-established professors, staff scientists, and graduate students.&lt;/p&gt;
 
@@ -26,95 +28,88 @@
       </item>
     
       <item>
-        <title>Demo post</title>
-        <link>http://localhost:4000/demo-post</link>
-        <pubDate>Thu, 07 Mar 2019 00:00:00 -0800</pubDate>
+        <title>Trim 3GB from Mathematica</title>
+        <link>http://localhost:4000/trim-3gb-from-mathematica</link>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
         <author></author>
-        <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh.&lt;/p&gt;
-
-&lt;p&gt;Nulla sit amet nulla non odio sodales mollis elementum sed sem. Aenean et laoreet enim. Curabitur vulputate, mi rutrum commodo condimentum, enim nunc feugiat magna, vel rutrum sapien ante nec ante. Donec nec nibh placerat, molestie felis ac, vulputate arcu. Donec condimentum pellentesque nibh vel tincidunt. Fusce sem ipsum, varius at laoreet vitae, accumsan sed nisl. Nunc eget viverra diam. Aliquam pulvinar, enim id commodo tincidunt, risus lectus pharetra lacus, et semper enim ligula ut mauris. Sed vitae sollicitudin ante. In sollicitudin placerat dui et sagittis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas leo id tortor feugiat, sit amet cursus diam mollis. Nunc sit amet tellus est. Nunc lacus nisl, gravida ut aliquam vel, molestie eget odio. Nulla facilisi. Ut sed libero pharetra nunc volutpat hendrerit. Mauris eget mi adipiscing, congue tellus ut, scelerisque eros. Phasellus ullamcorper dictum tellus nec pretium.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;This article describes how to reduce Mathematica’s footprint by 3GB to 5GB, retaining all core functionality.
+As always, when modifying your system, please proceed at your own discretion.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Integer molestie orci ante, nec dictum metus aliquam ut. Donec id tristique enim. Quisque tellus est, dignissim ut justo ac, volutpat fringilla mi. Duis ultricies nec sapien vitae blandit. &lt;strong&gt;Suspendisse sed est mi&lt;/strong&gt;. Mauris varius sapien vel nulla accumsan, id tincidunt ipsum ultrices. Sed eget magna mauris. Etiam porttitor lacus ullamcorper lacus tincidunt aliquam. Sed feugiat congue fringilla. Nunc velit diam, vulputate sed metus vitae, iaculis tempor arcu. Proin consectetur a erat in dignissim.&lt;/p&gt;
+&lt;p&gt;Mathematica requires around 10GB of disk space, and its documentation takes up about half of that space. A hulking mass of this data is dedicated to the pre-rendered examples in the Documentation, though, and you can cut this information out without disrupting core functionality.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;zebra stripes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Here are a couple of suggestions to trim the fat:&lt;/p&gt;
 
-&lt;p&gt;Pellentesque adipiscing mollis adipiscing.&lt;/p&gt;
+&lt;h4 id=&quot;dont-install-the-docs-in-the-first-place&quot;&gt;Don’t install the docs in the first place.&lt;/h4&gt;
+&lt;p&gt;If you’re installing a fresh copy of Mathematica, the wizard will likely include an option to forego the documentation installation. Be warned that your F1 key will no longer conjure the help you need to grok Wolfram, and you’ll need to turn to external resources.&amp;lt;/li&amp;gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Nulla sit amet nulla non odio sodales mollis elementum sed sem.&lt;/li&gt;
-  &lt;li&gt;Donec id tristique enim. Quisque tellus est, dignissim ut justo ac, volutpat fringilla mi.&lt;/li&gt;
-  &lt;li&gt;Nam luctus erat dolor, non viverra nulla varius at.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;delete-the-documentation-directory-entirely&quot;&gt;Delete the documentation directory entirely.&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://mathematica.stackexchange.com/questions/81250/is-it-safe-to-remove-the-documentation-notebooks&quot;&gt;Users have reported this to work safely&lt;/a&gt;. On a Linux system with the appropriate permissions, this is as simple as &lt;code&gt;rm -r /.../Mathematica/Documentation&lt;/code&gt;. You ought to be able to cut the folder from your Windows machine as well. Again, you’ll obviously lose documentation access with this route.&amp;lt;/li&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;Curabitur nec ullamcorper dui, blandit aliquet ipsum. Integer suscipit odio quis eros fermentum auctor. Sed tincidunt quam eleifend, egestas erat vulputate, tincidunt metus. Maecenas gravida sodales mi nec posuere. Cras vel nisi condimentum, hendrerit lacus sed, scelerisque ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc convallis vestibulum erat, quis porta tellus. &lt;em&gt;In lorem erat, sollicitudin varius posuere id, molestie ac eros&lt;/em&gt;. Fusce luctus tellus vitae vulputate venenatis. Sed scelerisque bibendum interdum. Sed pretium commodo ultrices. Fusce luctus quam id porttitor vulputate. Integer ornare consectetur diam eget rutrum. Etiam eget sapien metus.&lt;/p&gt;
+&lt;h4 id=&quot;delete-documentation-output-best-choice&quot;&gt;Delete documentation output. (BEST CHOICE)&lt;/h4&gt;
+&lt;p&gt;For those of us who don’t want to run around headless in a world full of quirky Wolfram functions, consider &lt;i&gt;deleting the output&lt;/i&gt; from your documentation. This is the option you were hoping for: how to have your docs and eat them too. This option saved me 3.1GB of space.&lt;/p&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;Ornare&lt;/dt&gt;
-  &lt;dd&gt;Cras vel nisi condimentum, hendrerit lacus sed, scelerisque ipsum.&lt;/dd&gt;
-  &lt;dt&gt;Convallis&lt;/dt&gt;
-  &lt;dd&gt;In lorem erat, sollicitudin varius posuere id, molestie ac eros&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;p&gt;How does it work? You may have realized that each help file is actually a Mathematica notebook rife with previously outputted examples. A solution, then, is to keep all the coded information in these files but rid yourself of the output. If you need to visualize these plots and data, simply evaluate the desired line in the help file or run the notebook in its entirety.&lt;/p&gt;
 
-&lt;p&gt;Proin at libero id lorem fermentum elementum quis eget est.&lt;/p&gt;
+&lt;p&gt;To pursue this option, I ran &lt;a href=&quot;https://mathematica.stackexchange.com/a/115489/20203&quot;&gt;David Z’s code provided in this Mathematica.SE answer&lt;/a&gt;. It didn’t crash my program nor my system. You may need to have write permissions on the …/Documentation directory for this to work; the Windows equivalent would likely be to run Mathematica as administrator.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Nam bibendum turpis massa, at accumsan justo fermentum ac.&lt;/li&gt;
-  &lt;li&gt;Nulla non nulla ut ante condimentum mattis vel at lectus.&lt;/li&gt;
-  &lt;li&gt;Etiam eget tortor tincidunt, iaculis ligula a, tristique massa. Fusce sed congue lorem, interdum sodales nisl.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;As a final note, the previous link also includes hints at other space-saving tricks, including deleting unessential Mathematica kernels. Anyway, I’m happy with the results of David Z’s code. Good stuff.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Dodge the Creeps! A Godot game.</title>
+        <link>http://localhost:4000/my-first-godot-game</link>
+        <pubDate>Mon, 27 Aug 2018 00:00:00 -0700</pubDate>
+        <author></author>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;I tried out the Godot game engine and made an Android game called Dodge the Creeps! You can download it &lt;a href=&quot;https://github.com/shervinsahba/godot/tree/master/Dodge/export/Android&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Etiam consequat euismod ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla pellentesque ipsum vulputate, pellentesque nisl vitae, lacinia sem. Praesent auctor felis et odio ultrices, nec tempor elit lobortis. Etiam ornare massa non risus luctus, id iaculis lacus egestas. Pellentesque massa dolor, mattis id lobortis eget, tristique vitae est.&lt;/p&gt;
+&lt;h4 id=&quot;i-grew-up-making-games&quot;&gt;I grew up making games.&lt;/h4&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;I grew up enamored with video games. Naturally, as a youth, I ventured to make my own. This started by drawing pen and paper levels in elementary school to dabbling in old-school simplified game engines such as &lt;a href=&quot;https://www.youtube.com/watch?v=Cq997czKsx0&quot;&gt;Click ‘n Create&lt;/a&gt; and archaic versions of the still-alive &lt;a href=&quot;https://www.rpgmakerweb.com&quot;&gt;RPG Maker&lt;/a&gt; as a teen. My success was mostly limited to distributing a handful of 3.5” floppies to curious friends, but it was amazing fun. Anyway, I decided that game design is worth a revisit. On Sunday, I spent the morning working through a tutorial project in &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt;, an open-source game engine designed at MIT.&lt;/p&gt;
 
-&lt;p&gt;Nam vulputate leo vitae libero vehicula, id tincidunt velit malesuada. In vel ornare nisi, id semper turpis. Vivamus erat elit, venenatis quis dui at, convallis suscipit sapien. Nunc in nisi scelerisque, aliquam mauris porttitor, facilisis ligula. Vestibulum cursus erat ac turpis bibendum, id pulvinar dolor dapibus. Proin vitae justo et velit imperdiet ultrices id id odio. Cras adipiscing ante vel mauris lobortis rutrum. Aenean eu felis est. In lacinia porttitor risus non sagittis.&lt;/p&gt;
+&lt;h4 id=&quot;why-godot&quot;&gt;Why Godot?&lt;/h4&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Greeter&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;vi&quot;&gt;@message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;p&gt;I recommend Godot as a piece of software. It’s rising in popularity, works for both 2D and 3D game design, and is &lt;em&gt;completely free&lt;/em&gt; to use even for commercial purposes. Well-known contenders such as Unity are appealing too, but I’m enjoying the accessibility of Godot’s native and pythonic GDScript script, the ability to also use C# scripting, and it’s multi-OS compatability including Linux support.&lt;/p&gt;
 
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greet&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;h4 id=&quot;dodge-the-creeps&quot;&gt;Dodge the Creeps!&lt;/h4&gt;
 
-&lt;span class=&quot;n&quot;&gt;john&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Greeter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Hello, World&amp;#39;&lt;/span&gt;
+&lt;p&gt;The game I worked on is a tutorial called &lt;a href=&quot;https://docs.godotengine.org/en/3.1/getting_started/step_by_step/your_first_game.html&quot;&gt;Dodge the Creeps!&lt;/a&gt; It’s a classic, top-down dodge the bad guys game. The assets and design are all from the tutorial, but I ported the game to Android and mapped the controls to the phone’s accelorometer. In my version, you play it by holding your phone level and tilting the screen to move.&lt;/p&gt;
 
-&lt;span class=&quot;n&quot;&gt;john&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greet&lt;/span&gt;
+&lt;p&gt;You can play it by downloading the &lt;a href=&quot;https://github.com/shervinsahba/godot/tree/master/Dodge/export/Android&quot;&gt;Dodge.apk&lt;/a&gt; file off my GitHub onto your Android device and running the app.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Email [at] obfuscation [dot] whatever?</title>
+        <link>http://localhost:4000/email-obfuscation</link>
+        <pubDate>Sun, 17 Jun 2018 00:00:00 -0700</pubDate>
+        <author></author>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;My email address is on clear display: &lt;span style=&quot;display: inline-block; unicode-bidi: bidi-override; direction: rtl;&quot; onmouseover=&quot;this.innerText=this.innerText.split('').reverse().join(''); this.style.unicodeBidi=''; this.removeAttribute('onmouseover');&quot;&gt;ude.wu@abhass
+&lt;/span&gt; 
+. Is this madness? Will I succumb to spam crawlers?? Should I have opted for the traditional “foo [at] bar [dot] com” approach?! Well, here’s the thing. What you’re seeing is some sleight-of-hand.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here’s the actual code:&lt;/p&gt;
 
-&lt;p&gt;Sed imperdiet interdum ultrices. Phasellus iaculis porttitor lorem nec scelerisque. Suspendisse eros urna, adipiscing vel luctus at, feugiat sit amet arcu. Aliquam porttitor ut urna pellentesque sagittis. Donec pellentesque venenatis diam sit amet cursus. Etiam luctus, metus quis gravida fermentum, tortor arcu consequat metus, eget viverra augue risus ac dui. Fusce faucibus scelerisque quam eu sagittis. Sed sit amet sapien non augue lobortis adipiscing. Sed sagittis at lectus eu tempus. Nulla non nulla ut ante condimentum mattis vel at lectus. Nulla ultricies dui et urna semper ultrices. Sed neque ante, dictum in dignissim luctus, facilisis ornare odio. Aenean tempor ultrices magna non pharetra. Curabitur vulputate nec est aliquet suscipit. Etiam ipsum sapien, dictum quis tristique vel, pretium at elit.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;
+&amp;lt;span style=&quot;display: inline-block; unicode-bidi: bidi-override; direction: rtl;&quot;
+onmouseover=&quot;this.innerText=this.innerText.split('').reverse().join('');
+ this.style.unicodeBidi=''; this.removeAttribute('onmouseover');&quot;&amp;gt;
+ude.wu@abhass
+&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The style property is set to reverse text direction, so the server and most bots see “ude.wu@abhass”. Bots typically seek the “@” symbol and then a dot afterwards, so I’m not at much risk here. A spammer could program their crawler to run forwards &lt;em&gt;and backwards&lt;/em&gt; to sniff out my email address, but that would mine too many false positives. In any case, &lt;a href=&quot;https://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work&quot;&gt;this security measure appears effective&lt;/a&gt;, as the linked Superuser.SE post discusses.&lt;/p&gt;
+
+&lt;p&gt;The mouseover property requires a javascript enabled browser. This code lets you copy the reversed text and magically paste it in the forward direction. Credit is due to user &lt;a href=&quot;https://superuser.com/questions/235937/does-e-mail-address-obfuscation-actually-work#comment786336_235965&quot;&gt;abenier’s comment&lt;/a&gt;. Without the mouseover code, you’ll copy the reversed string. For example, see what happens when you copy and paste the following text that doesn’t use the javascript mouseover code:
+&lt;span style=&quot;display: inline-block; unicode-bidi: bidi-override; direction: rtl;&quot;&gt;
+I HAVE DECODED THE ULTRA SECRET MESSAGE!
+&lt;/span&gt;&lt;/p&gt;
 </description>
       </item>
     
