@@ -1,0 +1,13 @@
+The DNS Zone file on my DNS service requires to @ to GitHub's IP and to alias to username.github.io. 
+The GitHub repo than needs a file called CNAME with domainname.com in its root directory.
+
+
+A (Host)
+@ 	185.199.108.153
+@	185.199.109.153
+@	185.199.110.153
+@	185.199.111.153
+
+CNAME (Alias)
+www    shervinsahba.github.io
+
