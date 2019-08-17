@@ -1,11 +1,11 @@
-- url: /
-  title: Home
+# - url: /
+#   title: Home
 
 - url: /research
   title: Research
 
-# - url: /tutoring
-#   title: Tutoring
+- url: /tutoring
+  title: Tutoring
 
 - url: /about
   title: About
