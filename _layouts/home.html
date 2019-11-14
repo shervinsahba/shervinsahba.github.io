@@ -1,64 +1,20 @@
 ---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 layout: default
-title: Home
 ---
 
-<div class="fadeInUp animated">
-  <h1>Shervin Sahba</h1>
-
-  Welcome to my website. I post stuff here.
-  <br>
-  e: {% include email.html %} |  social: {% include social.html %} | CV: <a href="/research/CV.pdf"><i class="fas fa-file-pdf"></i></a>
-
-
-
-  <br>
-  <br>
-</div>
-
-<section class="archive">
-{% for post in site.posts %}
-{% unless post.next %}
-
-  {% unless forloop.first %}
-    </div>
-  </div>
-  {% endunless %}
-
-  <div class="archive-item fadeInDown animated">
-    <h2>{{ post.date | date: '%Y' }}</h2>
-    <div>
-
-{% else %}
-
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-
-{% if year != next_year %}
-
-  {% unless forloop.first %}
-    </div>
-  </div>
-  {% endunless %}
-
-  <div class="archive-item fadeInDown animated">
-    <h2>{{ post.date | date: '%Y' }}</h2>
-    <div>
-
-{% endif %}
-{% endunless %}
-
-  <article>
-    <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <div class="post-date">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
-    </div>
-  </article>
-
-  {% if forloop.last %}
-    </div>
-  </div>
-  {% endif %}
-
-{% endfor %}
-</section>
+{{ content }}
