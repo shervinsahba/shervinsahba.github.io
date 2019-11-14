@@ -30,7 +30,8 @@ tagline:               >
   Super Cool Website
 
 # A list of keywords for your blog
-keywords:              [physics, math, mathematics, applied math, machine learning, nonlinear dynamics, optics, photonics]
+keywords:              >
+  [physics, math, mathematics, applied math, machine learning, nonlinear dynamics, optics, photonics, UW, university of washington]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -46,12 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  # - title:             Home
-  #   url:               /hydejack/
-  # - title:             Posts
-  #   url:               /hyde/
-  # - title:             Documentation
-  #   url:               /docs/
+  - title:             Home
+    url:               /blog/
   - title:             About
     url:               /about/
 
