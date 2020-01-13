@@ -8,7 +8,7 @@ title: About
 
 Hey. This will be my new page.
 
-[Here's my CV.](/about/CV-20191115.pdf "Click!")
+[Here's my CV.](/about/CV_Shervin_Sahba.pdf "Click!")
 
 
 ### About me

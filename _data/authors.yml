@@ -26,6 +26,9 @@ author1:
   social:
     # twitter:         <username>
     github:          shervinsahba
+    linkedin:        ssahba
+    researchgate:      Shervin_Sahba        # SJS added
+    googlescholar:     RG1tF0QAAAAJ         # SJS added
     # email:           ssahba@uw.edu
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -55,15 +58,13 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        ssahba
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
-    researchgate:      Shervin_Sahba
-    googlescholar:     RG1tF0QAAAAJ
+
 
 # # Another author (optional)
 # author2:
